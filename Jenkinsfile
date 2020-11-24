@@ -11,7 +11,7 @@ pipeline {
                 sh "/opt/maven/bin/mvn test"
             }
         }
-        stage('--package--') {
+        stage('--worker--') {
             steps {
                 sh "/opt/maven/bin/mvn package"
             }
